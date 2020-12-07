@@ -72,7 +72,7 @@ def evaluate_algorithm(dataset,l_rate,n_epoch):
 	test_set=list()
 	actual=list()
 	#testing on 50 examples
-	for i in range(200):
+	for i in range(50):
 		index=random.randint(1,207)
 		test_set.append(dataset[index])
 		actual.append(dataset[index][-1])
